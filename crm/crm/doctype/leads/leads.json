@@ -1,0 +1,117 @@
+{
+ "autoname": "format:CR-{#####}",
+ "creation": "2021-02-15 12:17:21.287035",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "customer",
+  "company",
+  "contact_person",
+  "mobile_number",
+  "date",
+  "subject",
+  "descrition",
+  "section_break_8",
+  "products",
+  "section_break_10",
+  "attachment",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Data",
+   "label": "Company"
+  },
+  {
+   "fieldname": "contact_person",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Contact Person"
+  },
+  {
+   "fieldname": "mobile_number",
+   "fieldtype": "Data",
+   "label": "Mobile Number"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "subject",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Subject"
+  },
+  {
+   "fieldname": "descrition",
+   "fieldtype": "Text Editor",
+   "label": "Descrition"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "section_break_8",
+   "fieldtype": "Section Break",
+   "label": "Products Section"
+  },
+  {
+   "fieldname": "products",
+   "fieldtype": "Table",
+   "label": "Products",
+   "options": "Products"
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "attachment",
+   "fieldtype": "Attach",
+   "label": "Attachment"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Leads",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "is_submittable": 1,
+ "modified": "2021-02-15 16:25:55.176665",
+ "modified_by": "Administrator",
+ "module": "Crm",
+ "name": "Leads",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
